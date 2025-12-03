@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, Sis! 🎉</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="theme-kitty">
+    <div class="bg-gradient"></div>
+    <div class="stars"></div>
+
+    <header class="hero" id="top">
+      <div class="mood-switcher" aria-label="Choose a mood theme">
+        <span class="mood-label">Mood:</span>
+        <button class="mood-btn mood-btn--active" data-theme="kitty" type="button" aria-label="Kitty sweet">
+          😺
+        </button>
+        <button class="mood-btn" data-theme="romantic" type="button" aria-label="Romantic pink">
+          💖
+        </button>
+        <button class="mood-btn" data-theme="dreamy" type="button" aria-label="Dreamy night">
+          🌙
+        </button>
+        <button class="mood-btn" data-theme="party" type="button" aria-label="Party confetti">
+          🎉
+        </button>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">For my amazing sister</p>
+        <h1 class="hero-title">
+          Happy Birthday
+          <span class="hero-name" contenteditable="true">[Your Name Here]</span>
+        </h1>
+        <p class="hero-subtitle">
+          Today is all about you. Scroll down for a little surprise and some
+          words straight from my heart.
+        </p>
+        <button class="hero-btn" id="scrollBtn">See the wishes</button>
+      </div>
+
+      <!-- Kitty illustration on the side -->
+      <div class="kitty-illustration" aria-hidden="true">
+        <img
+          src="./kitty.png"
+          alt="Cute cat illustration"
+        />
+      </div>
+
+      <!-- Floating kitty icons -->
+      <div class="kitty-icons" aria-hidden="true">
+        <span class="kitty-icon">🐾</span>
+        <span class="kitty-icon">😺</span>
+        <span class="kitty-icon">🐾</span>
+      </div>
+
+      <div class="floating-elements">
+        <div class="float heart heart-1"></div>
+        <div class="float heart heart-2"></div>
+        <div class="float heart heart-3"></div>
+        <div class="float confetti confetti-1"></div>
+        <div class="float confetti confetti-2"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section wishes" id="wishes">
+        <div class="section-inner">
+          <h2 class="section-title">
+            A few words for you
+            <span class="section-kitty-tag">meow ✿</span>
+          </h2>
+          <p class="section-subtitle">
+            You are more than a sister – you are my built‑in best friend.
+          </p>
+
+          <div class="wishes-grid">
+            <div class="wish-card">
+              <h3>To your smile</h3>
+              <p>
+                May your smile be brighter than all the candles on your cake
+                today and every day after. You light up every room you walk
+                into.
+              </p>
+            </div>
+            <div class="wish-card">
+              <h3>To your dreams</h3>
+              <p>
+                I wish that every dream you quietly hold in your heart finds its
+                way into reality, one beautiful step at a time.
+              </p>
+            </div>
+            <div class="wish-card">
+              <h3>To your heart</h3>
+              <p>
+                You care so deeply for everyone around you. Today, I hope you
+                feel that same love coming back to you a hundred times over.
+              </p>
+            </div>
+            <div class="wish-card">
+              <h3>To us</h3>
+              <p>
+                No matter where life takes us, you will always have me – your
+                biggest fan, loudest cheerleader, and forever partner in crime.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cake-section" id="cake">
+        <div class="parallax-layer layer-back"></div>
+        <div class="parallax-layer layer-mid"></div>
+        <div class="parallax-layer layer-front"></div>
+
+        <div class="section-inner cake-inner">
+          <div class="cake-text">
+            <h2 class="section-title script-title">Make a wish…</h2>
+            <p>
+              Close your eyes, take a deep breath, and think of everything your
+              heart desires. When you are ready, tap the candle to blow it out.
+            </p>
+            <p class="hint">(Turn your sound on if you like – your heart will do the rest.)</p>
+          </div>
+
+          <div class="cake-wrapper">
+            <div class="cake" id="cake">
+              <div class="cake-plate"></div>
+              <div class="cake-layer layer-bottom"></div>
+              <div class="cake-layer layer-middle"></div>
+              <div class="cake-layer layer-top"></div>
+              <div class="cake-cream"></div>
+
+              <div class="candle" id="candle">
+                <div class="candle-body"></div>
+                <div class="flame">
+                  <span class="flame-inner"></span>
+                </div>
+                <div class="smoke">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+
+              <div class="sprinkles">
+                <span></span><span></span><span></span><span></span><span></span
+                ><span></span><span></span><span></span>
+              </div>
+            </div>
+            <p class="tap-text">Tap or click the candle ✨</p>
+            <p class="wish-reveal" id="wishReveal">
+              Your wish is on its way to the universe. Keep believing in
+              yourself, sis. 💖
+            </p>
+            <div class="kitty-stickers" aria-hidden="true">
+              <div class="kitty-sticker kitty-sticker--left">
+                <span class="kitty-face">ฅ^•ﻌ•^ฅ</span>
+              </div>
+              <div class="kitty-sticker kitty-sticker--right">
+                <span class="kitty-face">=＾● ⋏ ●＾=</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section closing">
+        <div class="section-inner">
+          <h2 class="section-title">Always here for you</h2>
+          <p>
+            No matter how many birthdays pass, you will always be my little bit
+            of magic in this world. Thank you for being you.
+          </p>
+          <p class="closing-signoff">
+            With all my love,<br />
+            <span contenteditable="true" class="signature">[Your Brother/Sister]</span>
+          </p>
+          <button class="hero-btn back-top" onclick="window.scrollTo({top:0, behavior:'smooth'});">
+            Back to the top
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
